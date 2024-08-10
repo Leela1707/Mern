@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta i used for the device size -->
+        <meta name ="viewport" content="with=device-width, intial-scale=1.0">
+        <title>lumino</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href=""index.html><img src="image/logo.jpg"></a>
+                <div class="nav-links" id ="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a=href="">Intro</a></li>
+                        <li><a=href="">News</a></li>
+                        <li><a=href="">Gallery</a></li>
+                        <li><a=href="">Contact</a></li>
+                        <li><a=href="">Columns</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars "onclick="hideMenu()" ></i>
+            </nav>
+        <div class="text-box">
+            <h1>lumno</h1>
+            <p>free strt.book what didnt remember</p>
+            <a href="" class="click-here">vist us to know more</a>
+            </h1>
+        </div>
+        </section>
+
+<!-- 2nd page -->
+ <section>
+    <div class="blog-container">
+        <div class="blog-card">
+            <img src="images/pic1.png" alt="Image 1">
+            <div class="blog-content">
+                <h3>Nulla molestie euismod</h3>
+                <p>Lumino theme is a Bootstrap 4.0 mobile compatible layout for your website. Check "columns" page for one, two, three columns and tables.</p>
+                <a href="#" class="btn">Preview</a>
+            </div>
+        </div>
+        <div class="blog-card">
+            <img src="images/pic2.png" alt="Image 2">
+            <div class="blog-content">
+                <h3>Nulla molestie euismod</h3>
+                <p>You may download, modify and use this template as you wish. Lumino HTML5 template is a fully responsive mobile ready for any kind of website.</p>
+                <a href="#" class="btn">Detail</a>
+            </div>
+        </div>
+        <div class="blog-card">
+            <img src="images/pic3.png" alt="Image 3">
+            <div class="blog-content">
+                <h3>Nulla molestie euismod</h3>
+                <p>Credit goes to Unsplash for images used in this website template. Nulla sit amet tristique lacus. Etiam blandit ex vitae mauris gravida.</p>
+                <a href="#" class="btn">Read</a>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- third page -->
+<section class="thrid">
+    <div class="gallery-container">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Etiam at rhoncus nisl. Nunc rutrum ac ante euismod cursus.<br> Suspendisse imperdiet feugiat massa nex iaculis.</p>
+        <div class="gallery-grid">
+            <img src="images/p1.png" alt="Image 1">
+            <img src="images/p2.png" alt="Image 2">
+            <img src="images/p3.png" alt="Image 3">
+            <img src="images/p4.png" alt="Image 4">
+            <img src="images/p5.png" alt="Image 5">
+            <img src="images/p6.png" alt="Image 6">
+            <img src="images/p7.png" alt="Image 7">
+            <img src="images/p8.png" alt="Image 8">
+            <img src="images/p9.png" alt="Image 9">
+            <img src="images/p10.png" alt="Image 10">
+            <img src="images/p11.png" alt="Image 11">
+            <img src="images/p12.png" alt="Image 12">
+        </div>
+    </div>
+ </section>
+
+
+<!-- contact page -->
+<section>
+    <div class="contact-container">
+        <form class="contact-form">
+            <h2>Contact Us</h2>
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-info">
+            <h3><a href="#">Etiam at rhoncus nisl</a></h3>
+            <p>Nunc rutrum ac ante euismod cursus.<br>
+            Suspendisse imperdiet feugiat massa nec iaculis.</p>
+            <p>Tel: 010-020-0340<br>
+            Email: info@company.com</p>
+        </div>
+    </div>
+</section>
+         
+        <!-- javascript for toggle menu -->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showsMenu(){
+                navLinks.style.right="0";
+            }
+            function showsMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
