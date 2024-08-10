@@ -1,1 +1,1 @@
-# Mern
+# Mern stack development
